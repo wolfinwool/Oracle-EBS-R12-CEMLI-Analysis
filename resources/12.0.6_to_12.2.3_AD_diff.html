@@ -1,0 +1,463 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1" /> 
+  <title>Data Model Comparison Report</title> 
+<link href ="isd.css"  rel="stylesheet" type="text/css" /> 
+<Script type="text/javascript"   src="sorttable_tsfix.js"></Script>
+<p class="OraFieldText"  style="color: rgb(58, 90, 135); font-weight: bold;">Product:AD (Applications DBA) </p> 
+<ul>
+  <li><a href= #Regular_Tables>Regular Tables</a> (<font class="OraFieldText" color="black" font-size: 7pt  >'20' differences found)</font></li> 
+  <li><a href= #Partitioned_Tables>Partitioned Tables</a> (<font class="OraFieldText" color="black" font-size: 7pt  >'1' differences found)</font></li> 
+  <li><a href= #Queue_Tables>Queue Tables</a> (<font class="OraFieldText" color="black" font-size: 7pt  >No  differences found)</font></li> 
+  <li><a href= #Index_Orgnized_Tables>Index Orgnized Tables</a> (<font class="OraFieldText" color="black" font-size: 7pt  >No  differences found)</font></li> 
+  <li><a href= #Global_Temp_Tables>Global Temp Tables</a> (<font class="OraFieldText" color="black" font-size: 7pt  >No  differences found)</font></li> 
+  <li><a href= #Existing_Indexes>Indexes</a> 
+  <ul>
+    <li><a href= #Existing_Indexes>New Indexes on Existing Tables & Columns</a> (<font class="OraFieldText" color="black" font-size: 7pt  >'7' differences found)</font></li> 
+    <li><a href= #New_Indexes>New Indexes on New Tables & Columns</a> (<font class="OraFieldText" color="black" font-size: 7pt  >'6' differences found)</font></li> 
+    <li><a href= #Indexes>Index Changes</a> (<font class="OraFieldText" color="black" font-size: 7pt  >'9' differences found)</font></li>
+  </ul>
+  <li><a href= #Views>Views</a> (<font class="OraFieldText" color="black" font-size: 7pt  >No  differences found)</font></li> 
+  <li><a href= #Sequences>Sequences</a> (<font class="OraFieldText" color="black" font-size: 7pt  >'4' differences found)</font></li> 
+  <li><a href= #Materialized_Views>Materialized Views</a> (<font class="OraFieldText" color="black" font-size: 7pt  >No  differences found)</font></li> 
+  <li><a href= #Materialized_View_Logs>Materialized View Logs</a> (<font class="OraFieldText" color="black" font-size: 7pt  >No  differences found)</font></li> 
+  <li><a href= #Advanced_Queues>Advanced Queues</a> (<font class="OraFieldText" color="black" font-size: 7pt  >No  differences found)</font></li> 
+  <li><a href= #Triggers>Triggers</a> (<font class="OraFieldText" color="black" font-size: 7pt  >No  differences found)</font></li> 
+  <li><a href= #Packages>Packages</a> (<font class="OraFieldText" color="black" font-size: 7pt  >'18' differences found)</font></li> 
+  <li><a href= #Types>Types</a> (<font class="OraFieldText" color="black" font-size: 7pt  >No  differences found)</font></li> 
+  <li><a href= #Security_Object>Security Object</a> (<font class="OraFieldText" color="black" font-size: 7pt  >No  differences found)</font></li> 
+</ul>
+<script  type="text/javascript"> 
+function    showPopup(url) { 
+newwindow=window.open(url,'name','height=190,width=520,top=200,left=300,resizable,scrollbars=yes');
+  if (window.focus)  {newwindow.focus()} 
+} 
+</script>
+ <span class="OraHeaderSub"><a name= Regular_Tables id= Regular_Tables>Regular Tables: ('20' differences found)</a></span>
+
+ <table width="100%"  border="1" cellpadding="0" cellspacing="0">
+  <tr>
+     <th style="width:20%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;">Regular Tables<span  class="sortarrow"></span></a></th>
+     <th style="width:80%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;"><strong>Object Definition Differences  Between 12.0.6 and 12.2.3</strong><span class="sortarrow"></span></a></th>
+  </tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">ADX_PRE_AUTOCONFIG</div></td>
+<td style="word-break:break-all" align="middle" > <div align="left"><font  style="color: rgb(58, 90, 135); font-weight: bold;">Objects Added in 12.2.3</font><br><strong>col</strong>-LEVEL_VALUE2<br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ADOP_SESSIONS</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ADOP_SESSIONS_LOGS</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ADOP_SESSION_PATCHES</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ADOP_SESSION_PATCHES_BKP</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_BUGS</div></td>
+<td style="word-break:break-all" align="middle" > <div align="left"><font  style="color: rgb(58, 90, 135); font-weight: bold;">Objects Added in 12.2.3</font><br><strong>col</strong>-LANGUAGE<br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_CHECK_FILE_HISTORY</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_CHECK_FILE_TEMP</div></td>
+<td style="word-break:break-all" align="middle" > <div align="left"><font  style="color: rgb(58, 90, 135); font-weight: bold;">Objects Added in 12.2.3</font><br><strong>col</strong>-LANGUAGE<br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_DEFERRED_JOBS</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_DEPENDENT_MVS</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_NODES_CONFIG_STATUS</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_PARALLEL_UPDATE_UNITS_BKP</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_PATCHED_TABLES</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_PATCH_HIST_TEMP</div></td>
+<td style="word-break:break-all" align="middle" > <div align="left"><font  style="color: rgb(58, 90, 135); font-weight: bold;">Objects Added in 12.2.3</font><br><strong>col</strong>-LANGUAGE<br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ZD_CLOB</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ZD_DDL_HANDLER</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ZD_LOGS</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_PARALLEL_UPDATE_UNITS</div></td>
+<td style="word-break:break-all" align="middle" > <div align="left"><font  style="color: rgb(58, 90, 135); font-weight: bold;"> Objects Removed in 12.2.3</font><br><strong>col</strong>-DATA_OBJECT_ID<br><strong>col</strong>-END_BLOCK<br><strong>col</strong>-END_DATE<br><strong>col</strong>-END_ID<br><strong>col</strong>-RELATIVE_FNO<br><strong>col</strong>-ROWS_PROCESSED<br><strong>col</strong>-START_BLOCK<br><strong>col</strong>-START_DATE<br><strong>col</strong>-START_ID<br><strong>col</strong>-STATUS<br><strong>col</strong>-UNIT_ID<br><strong>col</strong>-UPDATE_ID<br><strong>col</strong>-WORKER_ID<br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_PA_ANALYSIS_RUNS</div></td>
+<td style="word-break:break-all" align="middle" ><div align="left"><font  style="color: rgb(58, 90, 135); font-weight: bold;"> Attribute Changes  between 12.0.6 and 12.2.3 </font><br><strong>col</strong>-PATCH_LIST:<strong>char_length</strong>:240 => <font color="#FF0000">4000</font><br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_PA_ANAL_RUN_PREFERENCES</div></td>
+<td style="word-break:break-all" align="middle" ><div align="left"><font  style="color: rgb(58, 90, 135); font-weight: bold;"> Attribute Changes  between 12.0.6 and 12.2.3 </font><br><strong>col</strong>-OPTION_VALUE:<strong>char_length</strong>:240 => <font color="#FF0000">4000</font><br></div></td>
+</tr></table>
+<div align="right"><a href="javascript:window.scrollTo(0,0)"target="iframe">Top</a></div>
+
+<span class="OraHeaderSub"><a name= Partitioned_Tables id= Partitioned_Tables>Partitioned Tables: ('1' differences found)</a></span>
+
+ <table width="100%"  border="1" cellpadding="0" cellspacing="0">
+  <tr>
+     <th style="width:20%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;">Partitioned Tables<span  class="sortarrow"></span></a></th>
+     <th style="width:80%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;"><strong>Object Definition Differences  Between 12.0.6 and 12.2.3</strong><span class="sortarrow"></span></a></th>
+  </tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_PARALLEL_UPDATE_UNITS</div></td>
+<td style="word-break:break-all" align="middle" > <div align="left"><font  style="color: rgb(58, 90, 135); font-weight: bold;">Objects Added in 12.2.3</font><br><strong>part</strong>-SYS_P905<br><strong>part</strong>-SYS_P968<br><strong>part</strong>-SYS_P907<br><strong>part</strong>-SYS_P908<br><strong>part</strong>-SYS_P909<br><strong>part</strong>-SYS_P910<br><strong>part</strong>-SYS_P911<br><strong>part</strong>-SYS_P912<br><strong>part</strong>-SYS_P913<br><strong>part</strong>-SYS_P914<br><strong>part</strong>-SYS_P915<br><strong>part</strong>-SYS_P916<br><strong>part</strong>-SYS_P917<br><strong>part</strong>-SYS_P918<br><strong>part</strong>-SYS_P919<br><strong>part</strong>-SYS_P920<br><strong>part</strong>-SYS_P921<br><strong>part</strong>-SYS_P922<br><strong>part</strong>-SYS_P923<br><strong>part</strong>-SYS_P924<br><strong>part</strong>-SYS_P925<br><strong>part</strong>-SYS_P926<br><strong>part</strong>-SYS_P927<br><strong>part</strong>-SYS_P928<br><strong>part</strong>-SYS_P929<br><strong>part</strong>-SYS_P930<br><strong>part</strong>-SYS_P931<br><strong>part</strong>-SYS_P932<br><strong>part</strong>-SYS_P933<br><strong>part</strong>-SYS_P934<br><strong>part</strong>-SYS_P935<br><strong>part</strong>-SYS_P936<br><strong>part</strong>-SYS_P937<br><strong>part</strong>-SYS_P938<br><strong>part</strong>-SYS_P939<br><strong>part</strong>-SYS_P940<br><strong>part</strong>-SYS_P941<br><strong>part</strong>-SYS_P942<br><strong>part</strong>-SYS_P943<br><strong>part</strong>-SYS_P944<br><strong>part</strong>-SYS_P945<br><strong>part</strong>-SYS_P946<br><strong>part</strong>-SYS_P947<br><strong>part</strong>-SYS_P948<br><strong>part</strong>-SYS_P949<br><strong>part</strong>-SYS_P950<br><strong>part</strong>-SYS_P951<br><strong>part</strong>-SYS_P952<br><strong>part</strong>-SYS_P953<br><strong>part</strong>-SYS_P954<br><strong>part</strong>-SYS_P955<br><strong>part</strong>-SYS_P956<br><strong>part</strong>-SYS_P957<br><strong>part</strong>-SYS_P958<br><strong>part</strong>-SYS_P959<br><strong>part</strong>-SYS_P960<br><strong>part</strong>-SYS_P961<br><strong>part</strong>-SYS_P962<br><strong>part</strong>-SYS_P963<br><strong>part</strong>-SYS_P964<br><strong>part</strong>-SYS_P965<br><strong>part</strong>-SYS_P966<br><strong>part</strong>-SYS_P967<br><strong>part</strong>-SYS_P906<br><strong>col</strong>-DATA_OBJECT_ID<br><strong>col</strong>-END_BLOCK<br><strong>col</strong>-END_DATE<br><strong>col</strong>-END_ID<br><strong>col</strong>-RELATIVE_FNO<br><strong>col</strong>-ROWS_PROCESSED<br><strong>col</strong>-START_BLOCK<br><strong>col</strong>-START_DATE<br><strong>col</strong>-START_ID<br><strong>col</strong>-STATUS<br><strong>col</strong>-UNIT_ID<br><strong>col</strong>-UPDATE_ID<br><strong>col</strong>-WORKER_ID<br></div></td>
+</tr></table>
+<div align="right"><a href="javascript:window.scrollTo(0,0)"target="iframe">Top</a></div>
+
+<span class="OraHeaderSub"><a name= Queue_Tables id= Queue_Tables>Queue Tables: (No  differences found)</a></span>
+
+ <table width="100%"  border="1" cellpadding="0" cellspacing="0">
+  <tr>
+     <th style="width:20%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;">Queue Tables<span  class="sortarrow"></span></a></th>
+     <th style="width:80%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;"><strong>Object Definition Differences  Between 12.0.6 and 12.2.3</strong><span class="sortarrow"></span></a></th>
+  </tr></table>
+<div align="right"><a href="javascript:window.scrollTo(0,0)"target="iframe">Top</a></div>
+
+<span class="OraHeaderSub"><a name= Index_Orgnized_Tables id= Index_Orgnized_Tables>Index Orgnized Tables: (No  differences found)</a></span>
+
+ <table width="100%"  border="1" cellpadding="0" cellspacing="0">
+  <tr>
+     <th style="width:20%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;">Index Orgnized Tables<span  class="sortarrow"></span></a></th>
+     <th style="width:80%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;"><strong>Object Definition Differences  Between 12.0.6 and 12.2.3</strong><span class="sortarrow"></span></a></th>
+  </tr></table>
+<div align="right"><a href="javascript:window.scrollTo(0,0)"target="iframe">Top</a></div>
+
+<span class="OraHeaderSub"><a name= Global_Temp_Tables id= Global_Temp_Tables>Global Temp Tables: (No  differences found)</a></span>
+
+ <table width="100%"  border="1" cellpadding="0" cellspacing="0">
+  <tr>
+     <th style="width:20%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;">Global Temp Tables<span  class="sortarrow"></span></a></th>
+     <th style="width:80%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;"><strong>Object Definition Differences  Between 12.0.6 and 12.2.3</strong><span class="sortarrow"></span></a></th>
+  </tr></table>
+<div align="right"><a href="javascript:window.scrollTo(0,0)"target="iframe">Top</a></div>
+
+<span class="OraHeaderSub"><a name= Existing_Indexes id= Existing Indexes>New Indexes on Existing Tables & Columns:( '7' differences found)</a></span>
+
+<table width="100%"  border="1" cellpadding="0" cellspacing="0"> <tbody>
+<tr>
+  <th style="width:20%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;">New_Indexes<span  class="sortarrow"></span></a></th>
+  <th style="width:80%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;">Indexed Tables & Columns (Note: Even though the index is added in 12.0.6, all underlying tables & columns are present in 12.0.6)<span  class="sortarrow"></span></a></th>
+</tr>
+
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_APPLIED_PATCHES_N3</div></td>
+<td  style="word-break:break-all" align="middle" ><div align="center"><strong>tab</strong>-AD_APPLIED_PATCHES<br><font style="color: black; font-weight: bold;">col:</font>IMPORTED_ID,IMPORTED_FROM_DB<br></div></td>
+</tr>
+
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_LONG_COLUMN_CONVERSIONS_N1</div></td>
+<td  style="word-break:break-all" align="middle" ><div align="center"><strong>tab</strong>-AD_LONG_COLUMN_CONVERSIONS<br><font style="color: black; font-weight: bold;">col:</font>SCHEMA_NAME,TABLE_NAME,OLD_COLUMN_NAME<br></div></td>
+</tr>
+
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_OBSOLETE_OBJECTS_N1</div></td>
+<td  style="word-break:break-all" align="middle" ><div align="center"><strong>tab</strong>-AD_OBSOLETE_OBJECTS<br><font style="color: black; font-weight: bold;">col:</font>OBJECT_TYPE,OBJECT_NAME,APPLICATION_ID<br></div></td>
+</tr>
+
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_OBSOLETE_OBJECTS_N2</div></td>
+<td  style="word-break:break-all" align="middle" ><div align="center"><strong>tab</strong>-AD_OBSOLETE_OBJECTS<br><font style="color: black; font-weight: bold;">col:</font>APPLICATION_ID,DROPPED,OBJECT_TYPE<br></div></td>
+</tr>
+
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_PATCH_DRIVERS_N2</div></td>
+<td  style="word-break:break-all" align="middle" ><div align="center"><strong>tab</strong>-AD_PATCH_DRIVERS<br><font style="color: black; font-weight: bold;">col:</font>IMPORTED_ID,IMPORTED_FROM_DB<br></div></td>
+</tr>
+
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_PATCH_HIST_SNAPS_TEMP_N3</div></td>
+<td  style="word-break:break-all" align="middle" ><div align="center"><strong>tab</strong>-AD_PATCH_HIST_SNAPS_TEMP<br><font style="color: black; font-weight: bold;">col:</font>FILE_ID<br></div></td>
+</tr>
+
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_PATCH_RUNS_N3</div></td>
+<td  style="word-break:break-all" align="middle" ><div align="center"><strong>tab</strong>-AD_PATCH_RUNS<br><font style="color: black; font-weight: bold;">col:</font>UPDATED_TO_RELEASE_ID<br></div></td>
+</tr>
+</table>
+<div align="right"><a href="javascript:window.scrollTo(0,0)"target="iframe">Top</a></div>
+
+<span class="OraHeaderSub"><a name= New_Indexes id= New IndexesNew Indexes on New Tables & Columns:( '6' differences found)</a></span>
+
+<table width="100%"  border="1" cellpadding="0" cellspacing="0"> <tbody>
+<tr>
+   <th style="width:20%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;">New_Indexes<span  class="sortarrow"></span></a></th>
+   <th style="width:80%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;">Indexed Tables & Columns (Note: All underlying tables & columns are not present in 12.0.6)<span  class="sortarrow"></span></a></th>
+</tr>
+
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_CHECK_FILE_HISTORY_U1</div></td>
+<td  style="word-break:break-all" align="middle" ><div align="center"><strong>tab</strong>-AD_CHECK_FILE_HISTORY<br><font style="color: black; font-weight: bold;">col:</font>FILE_VERSION_ID,CHECK_FILE_ID,PATCH_RUN_ID<br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_DEFERRED_JOBS_U1</div></td>
+<td  style="word-break:break-all" align="middle" ><div align="center"><strong>tab</strong>-AD_DEFERRED_JOBS<br><font style="color: black; font-weight: bold;">col:</font>PHASE,FILE_PRODUCT,SUBDIRECTORY,FILENAME,ARGUMENTS<br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_PATCHED_TABLES_U1</div></td>
+<td  style="word-break:break-all" align="middle" ><div align="center"><strong>tab</strong>-AD_PATCHED_TABLES<br><font style="color: black; font-weight: bold;">col:</font>OWNER,NAME<br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ZD_DDL_HANDLER_N1</div></td>
+<td  style="word-break:break-all" align="middle" ><div align="center"><strong>tab</strong>-AD_ZD_DDL_HANDLER<br><font style="color: black; font-weight: bold;">col:</font>PHASE<br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ZD_DDL_HANDLER_U1</div></td>
+<td  style="word-break:break-all" align="middle" ><div align="center"><strong>tab</strong>-AD_ZD_DDL_HANDLER<br><font style="color: black; font-weight: bold;">col:</font>DDL_ID<br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ZD_LOGS_U1</div></td>
+<td  style="word-break:break-all" align="middle" ><div align="center"><strong>tab</strong>-AD_ZD_LOGS<br><font style="color: black; font-weight: bold;">col:</font>LOG_SEQUENCE<br></div></td>
+</tr></table>
+<div align="right"><a href="javascript:window.scrollTo(0,0)"target="iframe">Top</a></div>
+
+<span class="OraHeaderSub"><a name= Indexes id= Indexes>Other Index Changes:( '9' differences found)</a></span>
+
+<table width="100%"  border="1" cellpadding="0" cellspacing="0"> <tbody>
+<tr>
+  <th style="width:20%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;">Indexes<span  class="sortarrow"></span></a></th>
+  <th style="width:80%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;">Object Definition Differences Between 12.0.6 and 12.2.3<span  class="sortarrow"></span></a></th>
+</tr>
+
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_BUGS_U2</div></td>
+<td style="word-break:break-all" align="middle" > <div align="left"><font  style="color: rgb(58, 90, 135); font-weight: bold;">Objects Added in 12.2.3</font><br><strong>tab</strong>-AD_BUGS<font style="color: black; font-weight: bold;">:col:</font>LANGUAGE<br></div><br><div align="left"><font  style="color: rgb(58, 90, 135); font-weight: bold;"> Attribute Changes  between 12.0.6 and 12.2.3 </font><br><strong>tab</strong>-AD_BUGS<font style="color: black; font-weight: bold;">:col:</font>ARU_RELEASE_NAME:<strong>column_position</strong>:2 => <font color="#FF0000">3</font><br><strong>tab</strong>-AD_BUGS<font style="color: black; font-weight: bold;">:col:</font>BASELINE_NAME:<strong>column_position</strong>:3 => <font color="#FF0000">4</font><br><strong>tab</strong>-AD_BUGS<font style="color: black; font-weight: bold;">:col:</font>BUG_NUMBER:<strong>column_position</strong>:1 => <font color="#FF0000">2</font><br><strong>tab</strong>-AD_BUGS<font style="color: black; font-weight: bold;">:col:</font>TRACKABLE_ENTITY_ABBR:<strong>column_position</strong>:4 => <font color="#FF0000">5</font><br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_PARALLEL_UPDATE_UNITS_N1</div></td>
+<td style="word-break:break-all" align="middle" > <div align="left"><font  style="color: rgb(58, 90, 135); font-weight: bold;">Objects Added in 12.2.3</font><br><strong>tab</strong>-AD_PARALLEL_UPDATE_UNITS<font style="color: black; font-weight: bold;">:col:</font>UNIT_ID<br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_PATCH_RUNS_U2</div></td>
+<td style="word-break:break-all" align="middle" > <div align="left"><font  style="color: rgb(58, 90, 135); font-weight: bold;">Objects Added in 12.2.3</font><br><strong>tab</strong>-AD_PATCH_RUNS<font style="color: black; font-weight: bold;">:col:</font>APPL_TOP_ID<br><strong>tab</strong>-AD_PATCH_RUNS<font style="color: black; font-weight: bold;">:col:</font>PATCH_DRIVER_ID<br><strong>tab</strong>-AD_PATCH_RUNS<font style="color: black; font-weight: bold;">:col:</font>START_DATE<br></div><br> <div align="left"><font  style="color: rgb(58, 90, 135); font-weight: bold;"> Objects Removed in 12.2.3</font><br><strong>tab</strong>-AD_PATCH_RUNS<font style="color: black; font-weight: bold;">:col:</font>UPDATED_TO_RELEASE_ID<br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_APPLIED_PATCHES_U2</div></td>
+<td style="word-break:break-all" align="middle" ><div align="center">Removed in 12.2.3<br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_APPS_DEPENDENCIES_U1</div></td>
+<td style="word-break:break-all" align="middle" ><div align="center">Removed in 12.2.3<br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_LONG_COLUMN_CONVERSIONS_U1</div></td>
+<td style="word-break:break-all" align="middle" ><div align="center">Removed in 12.2.3<br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_PATCH_DRIVERS_U3</div></td>
+<td style="word-break:break-all" align="middle" ><div align="center">Removed in 12.2.3<br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_PATCH_HIST_SNAPS_TEMP_U1</div></td>
+<td style="word-break:break-all" align="middle" ><div align="center">Removed in 12.2.3<br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_PATCH_RUNS_U3</div></td>
+<td style="word-break:break-all" align="middle" ><div align="center">Removed in 12.2.3<br></div></td>
+</tr></table>
+<div align="right"><a href="javascript:window.scrollTo(0,0)"target="iframe">Top</a></div>
+
+<span class="OraHeaderSub"><a name= Views id= Views>Views: (No  differences found)</a></span>
+
+ <table width="100%"  border="1" cellpadding="0" cellspacing="0">
+  <tr>
+     <th style="width:20%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;">Views<span  class="sortarrow"></span></a></th>
+     <th style="width:80%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;"><strong>Object Definition Differences  Between 12.0.6 and 12.2.3</strong><span class="sortarrow"></span></a></th>
+  </tr></table>
+<div align="right"><a href="javascript:window.scrollTo(0,0)"target="iframe">Top</a></div>
+
+<span class="OraHeaderSub"><a name= Sequences id= Sequences>Sequences: ('4' differences found)</a></span>
+
+ <table width="100%"  border="1" cellpadding="0" cellspacing="0">
+  <tr>
+     <th style="width:20%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;">Sequences<span  class="sortarrow"></span></a></th>
+     <th style="width:80%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;"><strong>Object Definition Differences  Between 12.0.6 and 12.2.3</strong><span class="sortarrow"></span></a></th>
+  </tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ADOP_SESSION_ID_SEQ</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_DEPENDENT_MVS_S</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ZD_DDL_HANDLER_DDL_S</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ZD_LOGS_S</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr></table>
+<div align="right"><a href="javascript:window.scrollTo(0,0)"target="iframe">Top</a></div>
+
+<span class="OraHeaderSub"><a name= Materialized_Views id= Materialized_Views>Materialized Views: (No  differences found)</a></span>
+
+ <table width="100%"  border="1" cellpadding="0" cellspacing="0">
+  <tr>
+     <th style="width:20%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;">Materialized Views<span  class="sortarrow"></span></a></th>
+     <th style="width:80%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;"><strong>Object Definition Differences  Between 12.0.6 and 12.2.3</strong><span class="sortarrow"></span></a></th>
+  </tr></table>
+<div align="right"><a href="javascript:window.scrollTo(0,0)"target="iframe">Top</a></div>
+
+<span class="OraHeaderSub"><a name= Materialized_View_Logs id= Materialized_View_Logs>Materialized View Logs: (No  differences found)</a></span>
+
+ <table width="100%"  border="1" cellpadding="0" cellspacing="0">
+  <tr>
+     <th style="width:20%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;">Materialized View Logs<span  class="sortarrow"></span></a></th>
+     <th style="width:80%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;"><strong>Object Definition Differences  Between 12.0.6 and 12.2.3</strong><span class="sortarrow"></span></a></th>
+  </tr></table>
+<div align="right"><a href="javascript:window.scrollTo(0,0)"target="iframe">Top</a></div>
+
+<span class="OraHeaderSub"><a name= Advanced_Queues id= Advanced_Queues>Advanced Queues: (No  differences found)</a></span>
+
+ <table width="100%"  border="1" cellpadding="0" cellspacing="0">
+  <tr>
+     <th style="width:20%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;">Advanced Queues<span  class="sortarrow"></span></a></th>
+     <th style="width:80%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;"><strong>Object Definition Differences  Between 12.0.6 and 12.2.3</strong><span class="sortarrow"></span></a></th>
+  </tr></table>
+<div align="right"><a href="javascript:window.scrollTo(0,0)"target="iframe">Top</a></div>
+
+<span class="OraHeaderSub"><a name= Triggers id= Triggers>Triggers: (No  differences found)</a></span>
+
+ <table width="100%"  border="1" cellpadding="0" cellspacing="0">
+  <tr>
+     <th style="width:20%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;">Triggers<span  class="sortarrow"></span></a></th>
+     <th style="width:80%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;"><strong>Object Definition Differences  Between 12.0.6 and 12.2.3</strong><span class="sortarrow"></span></a></th>
+  </tr></table>
+<div align="right"><a href="javascript:window.scrollTo(0,0)"target="iframe">Top</a></div>
+
+<span class="OraHeaderSub"><a name= Packages id= Packages>Packages: ('18' differences found)</a></span>
+
+ <table width="100%"  border="1" cellpadding="0" cellspacing="0">
+  <tr>
+     <th style="width:20%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;">Packages<span  class="sortarrow"></span></a></th>
+     <th style="width:80%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;"><strong>Object Definition Differences  Between 12.0.6 and 12.2.3</strong><span class="sortarrow"></span></a></th>
+  </tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_FILE_SYS_SNAPSHOTS_PKG</div></td>
+<td style="word-break:break-all" align="middle" > <div align="left"><font  style="color: rgb(58, 90, 135); font-weight: bold;">Objects Added in 12.2.3</font><br><strong>func</strong>-GET_SNAPSHOT_TYPE</div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_FILE_UTIL</div></td>
+<td style="word-break:break-all" align="middle" ><div align="left"><font  style="color: rgb(58, 90, 135); font-weight: bold;"> Attribute Changes  between 12.0.6 and 12.2.3 </font><br><strong>proc</strong>-POPULATE_SNAPSHOT_FILES_TEMP<font style="color: black; font-weight: bold;">:arg:</font>P_IS_RUN_FLOW:<font color="#FF0000">Added in 12.2.3</font><br><strong>proc</strong>-POPULATE_SNAPSHOT_BUGS_TEMP<font style="color: black; font-weight: bold;">:arg:</font>P_IS_RUN_FLOW:<font color="#FF0000">Added in 12.2.3</font><br><strong>proc</strong>-LOAD_CHECKFILE_INFO<font style="color: black; font-weight: bold;">:arg:</font>P_EBR_FLOW:<font color="#FF0000">Added in 12.2.3</font><br><strong>proc</strong>-CREATE_GLOBAL_VIEW<font style="color: black; font-weight: bold;">:arg:</font>P_IS_RUN_FLOW:<font color="#FF0000">Added in 12.2.3</font><br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_JAR</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_MORG</div></td>
+<td style="word-break:break-all" align="middle" > <div align="left"><font  style="color: rgb(58, 90, 135); font-weight: bold;">Objects Added in 12.2.3</font><br><strong>proc</strong>-UPDATE_BOOK_ID<br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_OBSOLETE_PRODUCTS</div></td>
+<td style="word-break:break-all" align="middle" > <div align="left"><font  style="color: rgb(58, 90, 135); font-weight: bold;">Objects Added in 12.2.3</font><br><strong>proc</strong>-UNDO_DELETE_OBJECT<br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_PATCH</div></td>
+<td style="word-break:break-all" align="middle" > <div align="left"><font  style="color: rgb(58, 90, 135); font-weight: bold;">Objects Added in 12.2.3</font><br><strong>func</strong>-IS_PATCH_APPLIED<br><strong>func</strong>-IS_CODELINE_PATCH_APPLIED</div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_PATCH_ANALYSIS_ENGINE</div></td>
+<td style="word-break:break-all" align="middle" > <div align="left"><font  style="color: rgb(58, 90, 135); font-weight: bold;">Objects Added in 12.2.3</font><br><strong>func</strong>-ISCUTOVER</div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_PA_MISC</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_PA_SUBMIT_REQUEST</div></td>
+<td style="word-break:break-all" align="middle" ><div align="left"><font  style="color: rgb(58, 90, 135); font-weight: bold;"> Attribute Changes  between 12.0.6 and 12.2.3 </font><br><strong>proc</strong>-SUBMIT_ADVISOR_REQUEST<font style="color: black; font-weight: bold;">:arg:</font>USEPRODUCTS:<font color="#FF0000">Added in 12.2.3</font><br></div></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ZD</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ZD_ADOP</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ZD_LOG</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ZD_MVIEW</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ZD_PARALLEL_EXEC</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ZD_PREP</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ZD_SEED</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_ZD_TABLE</div></td>
+<td style="word-break:break-all" align="middle" >Added in 12.2.3<br></td>
+</tr>
+<tr>
+<td style="word-break:break-all" align="middle" ><div align="center">AD_SIZING</div></td>
+<td style="word-break:break-all" align="middle" ><div align="center">Removed in 12.2.3<br></div></td>
+</tr></table>
+<div align="right"><a href="javascript:window.scrollTo(0,0)"target="iframe">Top</a></div>
+
+<span class="OraHeaderSub"><a name= Types id= Types>Types: (No  differences found)</a></span>
+
+ <table width="100%"  border="1" cellpadding="0" cellspacing="0">
+  <tr>
+     <th style="width:20%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;">Types<span  class="sortarrow"></span></a></th>
+     <th style="width:80%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;"><strong>Object Definition Differences  Between 12.0.6 and 12.2.3</strong><span class="sortarrow"></span></a></th>
+  </tr></table>
+<div align="right"><a href="javascript:window.scrollTo(0,0)"target="iframe">Top</a></div>
+
+<span class="OraHeaderSub"><a name= Security_Object id= Security_Object>Security Object: (No  differences found)</a></span>
+
+ <table width="100%"  border="1" cellpadding="0" cellspacing="0">
+  <tr>
+     <th style="width:20%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;">Security Object<span  class="sortarrow"></span></a></th>
+     <th style="width:80%"><a href="#" class="sortheader" onclick="ts_resortTable(this);return false;"><strong>Object Definition Differences  Between 12.0.6 and 12.2.3</strong><span class="sortarrow"></span></a></th>
+  </tr></table>
+<div align="right"><a href="javascript:window.scrollTo(0,0)"target="iframe">Top</a></div>
+
+
+ </body>
+ </html>

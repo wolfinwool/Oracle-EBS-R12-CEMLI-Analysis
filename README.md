@@ -1,5 +1,15 @@
 #Oracle EBS R12 CEMLI Analysis
-This repository holds source code for a CEMLI analysis tool. The development is restricted to support for upgrades to Oracle E-business Suite, Release 12 from an existing Oracle database.
+This repository holds source code for a CEMLI analysis tool. The development is restricted to support for upgrades to Oracle E-business Suite, Release 12 from an existing Oracle EBS release.
+
+Uses AD diff html files that can be downloaded from Oracle Support: EBS Data Model Comparison Report Overview (Doc ID 1290886.1), or use one of the provided AD diff files in the /resources directory.
+
+To be used for upgrades to the following EBS releases:
+
+* Release 12.1.3
+* Release 12.2.2
+* Release 12.2.3
+* Release 12.2.4
+
 
 ##Goals
 * Create a lightweight analysis tool to assist in CEMLI analysis.
